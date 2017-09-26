@@ -45,7 +45,7 @@ class InteractiveServer(object):
 
     def display_banner(self):
         g.client_channel.send(self.CLEAR_CHAR)
-        msg = u"""\n\033[1;32m  %s, 欢迎使用Jumpserver开源跳板机系统  \033[0m\r\n\r
+        msg = u"""\n\033[1;32m  %s, 欢迎使用Changhong SSC 云服务部跳板机系统  \033[0m\r\n\r
         1) 输入 \033[32mID\033[0m 直接登录 或 输入\033[32m部分 IP,主机名,备注\033[0m 进行搜索登录(如果唯一).\r
         2) 输入 \033[32m/\033[0m + \033[32mIP, 主机名 or 备注 \033[0m搜索. 如: /ip\r
         3) 输入 \033[32mP/p\033[0m 显示您有权限的主机.\r
